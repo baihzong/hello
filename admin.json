@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "admin2",
+      "password": "123"
+    },
+    {
+      "username": "abc",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "haha",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "username": "laodeng",
+      "password": "123",
+      "id": 5
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "words": "hello world"
+    },
+    {
+      "words": "sdaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "id": 2
+    },
+    {
+      "words": "saDASDSADSADSAD",
+      "id": 3
+    },
+    {
+      "words": "saDASDSADSADSAD",
+      "id": 4
+    },
+    {
+      "words": "saDASDSADSADSAD",
+      "id": 5
+    },
+    {
+      "words": "dsadas",
+      "id": 6
+    },
+    {
+      "words": "dsadsadsadsadsadasdasdad",
+      "id": 7
+    },
+    {
+      "words": "阿松大",
+      "id": 8
+    },
+    {
+      "words": "kjhl",
+      "id": 9
+    }
+  ]
+}

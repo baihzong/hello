@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    textarea:focus {
+      outline: none;
+    }
+
+    #Nav_bar {
+      height: 64px;
+      background: #464747;
+      margin-top: -50px;
+    }
+
+    #Nav_bar a {
+      background-color: aliceblue;
+      display: block;
+      width: 50px;
+      height: 20px;
+      margin: 50px;
+    }
+
+    #input1 {
+      height: 414px;
+      background: #1A1A1A;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #input1 .input2 {
+      width: 500px;
+      height: 300px;
+      background-color: aliceblue;
+    }
+
+    #input1 .input2 textarea {
+      width: 500px;
+      height: 300px;
+      resize: none;
+      font-size: 18px;
+      color: #f9f9f9;
+      background-color: #1A1A1A;
+      border: none;
+    }
+
+    /* 隐藏默认的滚动条 */
+    #input1 .input2 textarea::-webkit-scrollbar {
+      display: none;
+    }
+
+    #input1 .a1 {
+      color: white;
+      display: inline-block;
+      position: relative;
+      top: 30px;
+      left: -160px;
+    }
+
+    #input1 .a2 {
+      color: white;
+      display: inline-block;
+      position: relative;
+      top: 30px;
+      left: 160px;
+    }
+
+    #sty {
+      height: 500px;
+      background: #464747;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #startDrawing {
+      width: 220px;
+      height: 50px;
+      background-color: #00FFF1;
+      border-radius: 5px;
+      border: none;
+      font-size: 28px;
+      margin-top: 20px;
+    }
+    #aaa{
+      width: 500px;
+      height: 500px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="Nav_bar">
+    <div class="container">
+      <a href="pages/admin/admin.html">asd</a>
+    </div>
+  </div>
+
+  <!-- 输入 -->
+  <div id="input1">
+    <div class="input2">
+      <textarea placeholder="请输入单词，每个单词用逗号分隔。" id="drawWords"></textarea>
+    </div>
+    <div>
+      <p class="a1" id="history1">历史记录</p>
+      <p class="a2" id="wordCount"> <span>0</span> / 1000 | <span id="clear">清空</span></p>
+    </div>
+  </div>
+
+  <div id="sty">
+    <button id="startDrawing">开始绘图</button>
+  </div>
+
+  <ul id="mylist" style=""></ul>
+
+
+
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
